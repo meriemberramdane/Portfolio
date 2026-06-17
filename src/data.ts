@@ -5,14 +5,13 @@ export const personalInfo = {
   shortName: "Meriem",
   title: "Full-Stack Web Developer & UI/UX Designer",
   bio: "I craft modern digital experiences through clean code, thoughtful design, and innovative solutions.",
-  aboutDescription: "Passionate Full-Stack web developer and creative art director specializing in creating modern, responsive, and visually engaging digital experiences. I combine strong technical foundations with artistic creative thinking to build full-stack applications that are both structurally robust and visually stunning.",
+  aboutDescription: "Passionate Full-Stack web developer and UI/UX Designer specializing in creating modern, responsive, and visually engaging digital experiences. I combine strong technical foundations with artistic creative thinking to build full-stack applications that are both structurally robust and visually stunning.",
   email: "meriemberramdane98@gmail.com",
   phone: "+213773355929",
   location: "Algeria",
   github: "https://github.com/meriemberramdane",
   linkedin: "https://www.linkedin.com/in/meriem-b-101030257/?locale=en",
   instagram: "https://instagram.com/meriem.berramdane",
-  resumeUrl: "#" // Simulating PDF/cv download
 };
 
 export const projectsData: Project[] = [
@@ -38,22 +37,36 @@ export const skillsData: Skill[] = [
   { name: "Tailwind CSS", level: 98, category: "frontend" },
   { name: "HTML5", level: 95, category: "frontend" },
   { name: "CSS3", level: 93, category: "frontend" },
+    { name: "Responsive Design", level: 93, category: "frontend" },
   
   // Backend
   { name: "Node.js", level: 88, category: "backend" },
   { name: "Express.js", level: 85, category: "backend" },
-  { name: "REST APIs", level: 90, category: "backend" },
+  { name: "REST API Development", level: 90, category: "backend" },
+    { name: "JWT Authentication", level: 90, category: "backend" },
   
-  // Database
+  // Databases & Cloud
   { name: "MySQL", level: 82, category: "database" },
   { name: "PostgreSQL", level: 86, category: "database" },
+  { name: "SQL", level: 82, category: "database" },
+  { name: "MongoDB", level: 86, category: "database" },
+  { name: "Supabase", level: 86, category: "database" },
+
+  // Programming
+  { name: "Python", level: 82, category: "programming" },
+  { name: "Java", level: 78, category: "programming" },
   
   // Tools
   { name: "Git", level: 90, category: "tools" },
   { name: "GitHub", level: 93, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Postman", level: 95, category: "tools" },
   { name: "Docker", level: 75, category: "tools" },
   
+  // Modern Technologies
+  { name: "Next.js", level: 75, category: "modern" },
+  { name: "Firebase", level: 75, category: "modern" },
+  { name: "Prisma", level: 70, category: "modern" },
+
   // Design
   { name: "Figma", level: 92, category: "design" },
   { name: "UI/UX Design", level: 90, category: "design" },

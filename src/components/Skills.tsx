@@ -20,9 +20,11 @@ export default function Skills() {
   const categories = [
     { key: 'frontend', label: 'Frontend UI', icon: Laptop },
     { key: 'backend', label: 'Backend Server', icon: Terminal },
-    { key: 'database', label: 'Database Logs', icon: Database },
+    { key: 'database', label: 'Databases & Cloud', icon: Database },
     { key: 'tools', label: 'Tools & DevOps', icon: Wrench },
     { key: 'design', label: 'Creative Design', icon: Palette },
+    { key: 'modern', label: 'Modern Tech', icon: Sparkles },
+    { key: 'programming', label: 'Programming', icon: Terminal }
   ];
 
   // Helper to obtain skills by category

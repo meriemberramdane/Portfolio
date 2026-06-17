@@ -13,7 +13,7 @@ export interface Project {
 export interface Skill {
   name: string;
   level: number; // percentage (e.g. 95)
-  category: 'frontend' | 'backend' | 'database' | 'tools' | 'design';
+  category: 'frontend' | 'backend' | 'database' | 'tools' | 'design' | 'modern' | 'programming';
 }
 
 export interface ExperienceItem {
