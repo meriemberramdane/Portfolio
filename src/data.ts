@@ -64,7 +64,7 @@ export const experienceData: ExperienceItem[] = [
   {
     id: "exp-1",
     title: "Freelance Full-Stack Web Developer & UI/UX Designer",
-    organization: "Independent Creative Agency",
+    organization: "Freelance & Personal Development",
     period: "2025 - Present",
     description: [
       "Crafting premium performance interfaces and fully interactive full-stack business tools for global and local clients.",
@@ -118,31 +118,4 @@ export const servicesData: ServiceItem[] = [
 ];
 
 export const testimonialsData: Testimonial[] = [
-  {
-    id: "test-1",
-    name: "Alex Thorne",
-    position: "Founder & Creative Director",
-    company: "AlphaPixel Digital",
-    comment: "Meriem has elevated our platform's digital image to another dimension. Her attention to typographical details, fluid micro-motions, and robust React architectures is unmatched. Our custom hub looks and feels premium.",
-    avatar: "https://picsum.photos/seed/alex/100/100",
-    rating: 5
-  },
-  {
-    id: "test-2",
-    name: "Sophia Martinez",
-    position: "Product Manager",
-    company: "Veridian Tech Solutions",
-    comment: "An exceptional, elite frontend mastermind. She did not just write the code; she helped design the ultimate user journey using Figma. Working together was extremely seamless, fast, and highly professional.",
-    avatar: "https://picsum.photos/seed/sophia/100/100",
-    rating: 5
-  },
-  {
-    id: "test-3",
-    name: "Tariq Abdul",
-    position: "Engineering Director",
-    company: "Zeta Global Systems",
-    comment: "Meriem completed a critical information suite for our dashboard. Not only is the system beautiful and responsive on mobile, but the database structures are secure and fast. Lighthouse ratings hit 99 immediately.",
-    avatar: "https://picsum.photos/seed/tariq/100/100",
-    rating: 5
-  }
 ];
