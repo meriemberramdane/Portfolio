@@ -22,9 +22,21 @@ export const projectsData: Project[] = [
       "A modern e-commerce platform dedicated to antique, vintage, and collectible items. Designed to provide a seamless browsing experience where users can explore unique products, discover rare treasures, and enjoy an elegant, fully responsive interface.",
     image: "/images/LSB.png",
     category: "full-stack",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Responsive Design"],
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Supabase", "Responsive Design"],
     githubUrl: "https://github.com/meriemberramdane/le-studio-brocante",
     liveUrl: "https://le-studio-brocante.vercel.app/",
+    featured: true
+  },
+  {
+    id: "rays-piercings",
+    title: "Rays Piercings",
+    description:
+      "A modern piercing studio website featuring online appointment booking, product catalog management, WhatsApp integration, automated email notifications, responsive design, and a custom admin dashboard powered by Supabase.",
+    image: "/images/RP.png",
+    category: "full-stack",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Supabase", "EmailJS", "Responsive Design"],
+    githubUrl: "https://github.com/meriemberramdane/rays-piercings",
+    liveUrl: "https://rays-piercings.vercel.app/",
     featured: true
   }
 ];
