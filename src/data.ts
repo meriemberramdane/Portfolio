@@ -10,7 +10,7 @@ export const personalInfo = {
   phone: "+213773355929",
   location: "Algeria",
   github: "https://github.com/meriemberramdane",
-  linkedin: "https://www.linkedin.com/in/meriem-b-101030257/?locale=en",
+  linkedin: "https://www.linkedin.com/in/meriem-berramdane/?locale=en-US",
   instagram: "https://instagram.com/meriem.berramdane",
 };
 
